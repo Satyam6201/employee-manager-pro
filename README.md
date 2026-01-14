@@ -129,9 +129,26 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
-## 📧 Contact
+<h2 align="center">📬 Contact</h2>
 
-**Satyam** - [GitHub](https://github.com/Satyam6201)  
-**Project Link:** [https://github.com/Satyam6201/employee-manager-pro](https://github.com/Satyam6201/employee-manager-pro)
+<p align="center">
+  <b>Satyam Kumar Mishra</b>
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/Satyam6201">
+    <img src="https://img.shields.io/badge/GitHub-Satyam6201-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/satyam-kumar-mishra/">
+    <img src="https://img.shields.io/badge/LinkedIn-Satyam%20Kumar%20Mishra-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:satyamkumarmishra.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  🔗 <a href="https://github.com/Satyam6201/employee-manager-pro"><b>Project Repository</b></a>
+</p>
+
+
