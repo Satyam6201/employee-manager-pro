@@ -1,24 +1,71 @@
-# 🚀 TeamFlow: Employee Management Pro
+# 🚀 TeamFlow — Employee Management Pro
 
-A high-performance, full-stack Employee Management System built for modern businesses. Streamline your workforce administration with a secure, animated, and responsive interface.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Satyam6201/employee-manager-pro?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/Satyam6201/employee-manager-pro?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/Satyam6201/employee-manager-pro?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/Satyam6201/employee-manager-pro?style=for-the-badge" />
+</p>
 
-🔗 **Live Demo:** [https://employee-manager-pro-chi.vercel.app/](https://employee-manager-pro-chi.vercel.app/)  
-📁 **GitHub Repo:** [https://github.com/Satyam6201/employee-manager-pro](https://github.com/Satyam6201/employee-manager-pro)
+<p align="center">
+  <b>A high-performance, full-stack Employee Management System built with modern web technologies.</b><br/>
+  Secure • Scalable • Animated • Production-Ready
+</p>
+
+<p align="center">
+  <a href="https://employee-manager-pro-chi.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit-blue?style=for-the-badge" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Satyam6201/employee-manager-pro">
+    <img src="https://img.shields.io/badge/🐙%20GitHub-Repository-black?style=for-the-badge" />
+  </a>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Highlights
 
-### Frontend & Core
-* ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) **Next.js 14** (App Router)
-* ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) **TypeScript**
-* ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) **Tailwind CSS**
-* ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white) **Framer Motion** (Animations)
+✅ Secure Authentication  
+✅ Full Employee CRUD  
+✅ Serverless PostgreSQL  
+✅ Animated UI (Framer Motion)  
+✅ Role-ready Project for Interviews  
+✅ Deployed on Vercel  
 
-### Backend & Database
-* ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) **Prisma ORM**
-* ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) **Neon PostgreSQL** (Serverless)
-* ![Auth](https://img.shields.io/badge/NextAuth.js-black?style=for-the-badge&logo=nextdotjs&logoColor=white) **NextAuth.js** (Secure Authentication)
+---
+
+## 🖥️ Tech Stack
+
+### 🚀 Frontend
+<p>
+  <img src="https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs"/>
+  <img src="https://img.shields.io/badge/App_Router-ffffff?style=for-the-badge&logo=vercel&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer"/>
+</p>
+
+### 🧠 Backend & Database
+<p>
+  <img src="https://img.shields.io/badge/NextAuth.js-black?style=for-the-badge&logo=nextdotjs"/>
+  <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql"/>
+  <img src="https://img.shields.io/badge/Neon_Serverless-00E599?style=for-the-badge"/>
+</p>
+
+---
+
+## 🧩 Core Features
+
+| Feature | Description |
+|------|------------|
+| 🔐 Authentication | Secure login & signup using NextAuth |
+| 🧑‍💼 Employee CRUD | Create, Read, Update, Delete employees |
+| 🎨 Modern UI | Fully responsive & animated UI |
+| ⚡ Performance | Optimized serverless APIs |
+| 🛡️ Middleware | Protected routes & role checks |
+| ☁️ Cloud DB | Neon PostgreSQL with Prisma ORM |
 
 ---
 
