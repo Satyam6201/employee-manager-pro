@@ -46,3 +46,33 @@ src/
 - Complete CRUD: Add, Edit, View, and Delete employees seamlessly.
 - Dynamic UI: Smooth transitions using Framer Motion and responsive layouts with Tailwind.
 - Optimized Build: Custom build pipeline for Prisma client generation on Vercel.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. **Fork** the Project.
+2. Create your **Feature Branch** (`git checkout -b feature/AmazingFeature`).
+3. **Commit** your Changes (`git commit -m 'Add some AmazingFeature'`).
+4. **Push** to the Branch (`git push origin feature/AmazingFeature`).
+5. Open a **Pull Request**.
+
+### Reporting Issues
+If you find a bug or have a suggestion, please open an [issue](https://github.com/Satyam6201/employee-manager-pro/issues).
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+## 📧 Contact
+
+**Satyam** - [GitHub](https://github.com/Satyam6201)  
+**Project Link:** [https://github.com/Satyam6201/employee-manager-pro](https://github.com/Satyam6201/employee-manager-pro)
+
+---
