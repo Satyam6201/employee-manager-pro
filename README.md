@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 TeamFlow: Employee Management Pro
 
-## Getting Started
+A high-performance, full-stack Employee Management System built for modern businesses. Streamline your workforce administration with a secure, animated, and responsive interface.
 
-First, run the development server:
+🔗 **Live Demo:** [https://employee-manager-pro-chi.vercel.app/](https://employee-manager-pro-chi.vercel.app/)  
+📁 **GitHub Repo:** [https://github.com/Satyam6201/employee-manager-pro](https://github.com/Satyam6201/employee-manager-pro)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend & Core
+* ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) **Next.js 14** (App Router)
+* ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) **TypeScript**
+* ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) **Tailwind CSS**
+* ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white) **Framer Motion** (Animations)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Backend & Database
+* ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) **Prisma ORM**
+* ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) **Neon PostgreSQL** (Serverless)
+* ![Auth](https://img.shields.io/badge/NextAuth.js-black?style=for-the-badge&logo=nextdotjs&logoColor=white) **NextAuth.js** (Secure Authentication)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 File Structure Overview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+src/
+├── app/                  # Next.js 14 App Router (Core Pages)
+│   ├── api/              # Backend API routes (Auth, Employees, Registration)
+│   ├── dashboard/        # Main Admin Dashboard with CRUD pages
+│   ├── login/            # Authentication: Sign-in page
+│   ├── register/         # Authentication: User signup page
+│   ├── layout.tsx        # Global layout & Providers wrapper
+│   └── page.tsx          # Landing/Hero page
+├── components/           # Reusable UI components (Forms, Navbar, Table)
+├── hooks/                # Custom React hooks (e.g., useEmployees for data fetching)
+├── lib/                  # Library configurations (Prisma client instance)
+├── types/                # TypeScript interfaces and global definitions
+└── middleware.ts         # Route protection and Auth logic
