@@ -96,6 +96,16 @@ src/
 
 ---
 
+# ⚙️ Environment Variables
+```
+Create a .env file:
+
+DATABASE_URL=your_neon_postgres_url
+NEXTAUTH_SECRET=your_secret
+NEXTAUTH_URL=http://localhost:3000
+```
+---
+
 ## 🤝 How to Contribute
 
 # 👉 Open an issue here:
