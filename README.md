@@ -98,7 +98,9 @@ src/
 
 ## 🤝 How to Contribute
 
-Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+# 👉 Open an issue here:
+- https://github.com/Satyam6201/employee-manager-pro/issues
+- Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. **Fork** the Project.
 2. Create your **Feature Branch** (`git checkout -b feature/AmazingFeature`).
