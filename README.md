@@ -30,7 +30,6 @@
 ✅ Full Employee CRUD  
 ✅ Serverless PostgreSQL  
 ✅ Animated UI (Framer Motion)  
-✅ Role-ready Project for Interviews  
 ✅ Deployed on Vercel  
 
 ---
