@@ -38,3 +38,11 @@ src/
 ├── lib/                  # Library configurations (Prisma client instance)
 ├── types/                # TypeScript interfaces and global definitions
 └── middleware.ts         # Route protection and Auth logic
+```
+
+# ✨ Key Features
+- Secure Auth: User registration and login powered by NextAuth.js.
+- Database Cloud: High-speed data operations using Neon Serverless PostgreSQL.
+- Complete CRUD: Add, Edit, View, and Delete employees seamlessly.
+- Dynamic UI: Smooth transitions using Framer Motion and responsive layouts with Tailwind.
+- Optimized Build: Custom build pipeline for Prisma client generation on Vercel.
