@@ -1,15 +1,10 @@
 import { NextResponse } from "next/server";
 import { PrismaClient } from "@prisma/client";
 import { getServerSession } from "next-auth";
-// Ensure the path to authOptions matches your project structure
 import { authOptions } from "../auth/[...nextauth]/route"; 
 
 const prisma = new PrismaClient();
 
-/**
- * POST: Create a new Employee
- * This route links the employee to the currently logged-in user.
- */
 export async function POST(req: Request) {
   try {
     // 1. Check user session
@@ -48,7 +43,6 @@ export async function POST(req: Request) {
         salary: parseInt(body.salary.toString()) || 0,
         address: body.address || "",
         status: body.status || "Active",
-        // Linking the employee to the logged-in user
         userId: userId, 
       },
     });
@@ -56,7 +50,6 @@ export async function POST(req: Request) {
     return NextResponse.json(employee, { status: 201 });
 
   } catch (error: any) {
-    // Handle Prisma unique constraint error (e.g., duplicate email)
     if (error.code === 'P2002') {
       return NextResponse.json(
         { error: "This email is already registered to another employee." }, 
