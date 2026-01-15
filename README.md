@@ -149,5 +149,3 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 <p align="center">
   🔗 <a href="https://github.com/Satyam6201/employee-manager-pro"><b>Project Repository</b></a>
 </p>
-
-
